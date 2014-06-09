@@ -1,1 +1,8 @@
-print "hello world"
+def greeting():
+    name = raw_input("What is your name? ")
+    print "Hello, " + name
+
+def hello(name):
+	print "Hello, " + name
+
+hello("Soma")
